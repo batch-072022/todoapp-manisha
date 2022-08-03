@@ -11,6 +11,9 @@ import { AddtaskComponent } from './addtask/addtask.component';
 import { ListtaskComponent } from './listtask/listtask.component';
 
 import { EdittaskComponent } from './edittask/edittask.component';
+import { ListUsersComponent } from './list-users/list-users.component';
+import { ViewUserComponent } from './view-user/view-user.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
 
  
 
@@ -30,7 +33,11 @@ const routes: Routes = [
 
   {path:'edittask', component:EdittaskComponent},
 
-   
+  {path:'users',component:ListUsersComponent},
+
+  {path:'viewuser', component:ViewUserComponent},
+
+  {path:'edituser', component:EditUserComponent},
   
 
 ];
